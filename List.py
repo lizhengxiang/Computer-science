@@ -7,7 +7,7 @@ print(a)
 a[0] = "lizhengxiang"
 b = [4, 5, 6]
 a[2] = [1,2,b] 
-m = a[2]
+m = a[2][0:1]
 m[0] = 7
 print(a[2])
 print(m)
