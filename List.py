@@ -5,6 +5,7 @@ print(a[0])
 print(a[5])
 print(a)
 a[0] = "lizhengxiang"
+a.append("this is a")
 b = [4, 5, 6]
 a[2] = [1,2,b] 
 m = a[2][0:1]
